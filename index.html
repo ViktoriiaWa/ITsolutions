@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.messagestore.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.fallbacks.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.language.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.parser.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.emitter.js"></script>
+    <script src="https://cdn.rawgit.com/wikimedia/jquery.i18n/master/src/jquery.i18n.emitter.bidi.js"></script>
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>IT решения
+        для кино-бизнеса
+        и не только</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <img src="icons/logo.svg" alt="#" class="logo">
+            <ul class="nav__list">
+                <li class="nav__items"><a class="title-3" href="#About" data-i18n="About"></a></li>
+                <li class="nav__items"><a class="title-3" href="#FilmToolz">FilmToolz</a></li>
+                <li class="nav__items"><a class="title-3" href="#DocToolz">DocToolz</a></li>
+                <li class="nav__items"><a class="title-3" href="#development" data-i18n="Services">Услуги</a></li>
+                <li class="nav__items"><a class="title-3" href="#feedback" data-i18n="Contacts">Контакты</a></li>
+            </ul>
+            <div class="nav__translate">
+                <a class="nav__translate__btn active" href="#" data-lang="en">EN</a>
+                <a class="nav__translate__btn active" href="#" data-lang="ru">RU</a>
+            </div>
+        </nav>
+    </div>
+    <header class="header-bg">
+        <div class="container">
+            <div class="header">
+                <div class="header__text" id="About">
+                    <h1 class="title-1" data-i18n="titleHeader"></h1>
+                    <h2 class="title-2" data-i18n="textHeader">
+                    </h2>
+                </div>
+                <img class="header__img" src="img/main.svg" alt="main-img">
+                <div class="dotted-square header-square1">
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                </div>
+
+                <div class="dotted-square header-square2">
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                    <div class="dotted-line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section class="story">
+            <div class="story__text" id="FilmToolz">
+                <h2 class="title-4" data-i18n="storyTitle"></h2>
+                <h2 class="title-5" data-i18n="storyText"></h2>
+            </div>
+            <ul class="story__box">
+                <li class="story__item">
+                    <img src="icons/laptop.svg" alt="laptop">
+                    <span class="title-4">20 000 +</span>
+                    <p class="title-6" data-i18n="story__box1"></p>
+                </li>
+                <li class="story__item">
+                    <img src="icons/medal.svg" alt="medal">
+                    <span class="title-4">10 000 +</span>
+                    <p class="title-6" data-i18n="story__box2"></p>
+                </li>
+                <li class="story__item">
+                    <img src="icons/market.svg" alt="market">
+                    <span class="title-4">8 +</span>
+                    <p class="title-6" data-i18n="story__box3"></p>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="gray-bg"></div>
+    <div class="blue-bg"></div>
+    <div class="container">
+        <section class="moduls">
+            <div class="dotted-square-red moduls-square1">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <!-- Первый модуль -->
+            <div class="moduls__box">
+                <img class="moduls__img" src="icons/modul.jpg" alt="modul" width="540px" height="366px">
+                <div class="moduls__text">
+                    <h2 class="title-7" data-i18n="modulsTitle"></h2>
+                    <p data-i18n="modulsText"></p>
+                    <a class="btn title-btn" href="#" data-i18n="btn"></a>
+                </div>
+            </div>
+            <div class="dotted-square-red moduls-square2">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <!-- Второй модуль -->
+            <div class="moduls__box__two">
+                <div class="moduls__text__two">
+                    <h2 class="title-7" data-i18n="modulsTitle2"></h2>
+                    <p data-i18n="modulsText2"></p>
+                    <a class="btn title-btn" href="#" data-i18n="btn"></a>
+                </div>
+                <img class="moduls__img__two" src="icons/modul2.jpg" alt="modul" width="572px" height="336px">
+            </div>
+            <div class="dotted-square-red moduls-square3">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <!-- Третий модуль -->
+            <div class="moduls__box">
+                <img class="moduls__img" src="icons/modul3.jpg" alt="modul" width="571px" height="371px">
+                <div class="moduls__text">
+                    <h2 class="title-7" data-i18n="modulsTitle3"></h2>
+                    <p data-i18n="modulsText3"></p>
+                    <a class="btn title-btn" href="#" data-i18n="btn"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Секция Кастинг -->
+        <section class="casting">
+            <div class="casting__text">
+                <div class="casting__title">
+                    <h2 class="title-8" data-i18n="castingTitle"></h2>
+                    <p class="title-5" data-i18n="castingText"></p>
+                </div>
+                <ul class="casting__box">
+                    <li class="casting__item">
+                        <span class="title-4">20 000 +</span>
+                        <p class="title-6" data-i18n="castingBox1"></p>
+                    </li>
+                    <li class="casting__item">
+                        <span class="title-4">30 000 +</span>
+                        <p class="title-6" data-i18n="castingBox2"></p>
+                    </li>
+                    <li class="casting__item">
+                        <span class="title-4">250 000 +</span>
+                        <p class="title-6" data-i18n="castingBox3"></p>
+                    </li>
+                </ul>
+                <a class="btn title-btn" href="#" data-i18n="btn"></a>
+            </div>
+            <div class="dotted-square-red casting-square1">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <div class="dotted-square-red casting-square2">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <div class="casting__block">
+                <img class="casting__block__img1" src="img/casting1.jpg" alt="casting1">
+                <img class="casting__block__img2" src="img/casting2.jpg" alt="casting2">
+            </div>
+        </section>
+        <!-- Секция Кастинг-база -->
+        <section class="database">
+            <div class="dotted-square-red database-square1">
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+                <div class="dotted-line-red"></div>
+            </div>
+            <div class="dotted-square database-square2">
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+                <div class="dotted-line"></div>
+            </div>
+            <h2 class="title-4 database__title" data-i18n="databaseTitle">
+            </h2>
+            <div class="database__box">
+                <img class="database__img" src="img/database.jpg" alt="database-img" width="571px" height="371px">
+                <div class="database__text">
+                    <h2 class="title-7" data-i18n="databaseTextTitle"></h2>
+                    <p data-i18n="databaseText"></p>
+                    <a class="btn title-btn" href="#" data-i18n="btn"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <ul class="database__boxes">
+            <li class="database__item">
+                <img src="icons/documentation.svg" alt="documentation">
+                <h3 class="title-7" data-i18n="databaseItemTitle1"></h3>
+                <p class="title-2" data-i18n="databaseItemText1"></p>
+            </li>
+            <li class="database__item">
+                <img src="icons/sighting.svg" alt="sighting">
+                <h3 class="title-7" data-i18n="databaseItemTitle2"></h3>
+                <p class="title-2" data-i18n="databaseItemText2"></p>
+            </li>
+            <li class="database__item">
+                <img src="icons/storage.svg" alt="storage">
+                <h3 class="title-7" data-i18n="databaseItemTitle3"></h3>
+                <p class="title-2" data-i18n="databaseItemText3"></p>
+            </li>
+            <li class="database__item">
+                <img src="icons/archive.svg" alt="archive">
+                <h3 class="title-7" data-i18n="databaseItemTitle4"></h3>
+                <p class="title-2" data-i18n="databaseItemText4"></p>
+            </li>
+        </ul>
+        <!-- Секция разработка -->
+        <section class="development" id="development">
+            <div class="development__block">
+                <div class="development__left">
+                    <h2 class="title-4" data-i18n="developmentTitle"></h2>
+                    <p data-i18n="developmentText"></p>
+                    <a class="btn title-btn" href="#" data-i18n="btnFeedback"></a>
+                </div>
+                <ul class="flip-cards">
+                    <!-- Первая карточка -->
+                    <li ontouchstart="this.classList.toggle('hover');">
+                        <div class="large button card-front">
+                            <img src="icons/development1.svg" alt="development">
+                            <a class="title-7" href="#" data-i18n="cardFrontTitle"></a>
+                        </div>
+                        <div class="panel card-back">
+                            <div class="hub-info">
+                                <p data-i18n="cardBackText1">
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--        Вторая карточка      -->
+                    <li ontouchstart="this.classList.toggle('hover');">
+                        <div class="large button card-front">
+                            <img src="icons/development2.svg" alt="development">
+                            <a class="title-7" href="#" data-i18n="cardFrontTitle2"></a>
+                        </div>
+                        <div class="panel card-back">
+                            <div class="hub-info">
+                                <p data-i18n="cardBackText2"> </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--        Третья карточка      -->
+                    <li ontouchstart="this.classList.toggle('hover');">
+                        <div class="large button card-front">
+                            <img src="icons/development3.svg" alt="development">
+                            <a class="title-7" href="#" data-i18n="cardFrontTitle3"></a>
+                        </div>
+
+                        <div class="panel card-back">
+                            <div class="hub-info">
+                                <p data-i18n="cardBackText3"></p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--        Четвертая карточка      -->
+                    <li ontouchstart="this.classList.toggle('hover');">
+                        <div class="large button card-front">
+                            <img src="icons/development4.svg" alt="development">
+                            <a class="title-7" href="#" data-i18n="cardFrontTitle4"></a>
+                        </div>
+                        <div class="panel card-back">
+                            <i class="fa fa-map-o card-icon"></i>
+                            <div class="hub-info">
+                                <p data-i18n="cardBackText4"></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="feedback__block">
+                <div class="feedback__left">
+                    <h2 class="title-8" data-i18n="feedbackLeftTitle"></h2>
+                    <p class="feedback__left__text" data-i18n="feedbackLeftText"></p>
+                    <a type=" mailto:order@trendsoft.ru" class="feedback__left__mail"
+                        href="order@trendsoft.ru">order@trendsoft.ru
+                    </a>
+                </div>
+                <div class="feedback__right">
+                    <h2 class="title-8" data-i18n="feedbackRightTitle"></h2>
+                    <a class="feedback__right__phone" href="tel:+7 (499) 342-57-22">+7 (499) 342-57-22
+                    </a>
+                    <p class="feedback__right__text" data-i18n="feedbackRightText"></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="footer-text" data-i18n="footerText">
+            </p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

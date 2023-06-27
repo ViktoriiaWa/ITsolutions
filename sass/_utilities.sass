@@ -1,0 +1,58 @@
+.gray-bg
+  background-color: #F9F9F9
+  width: 100%
+  height: 285.4rem
+  position: absolute
+  top: 165rem
+  z-index: -1000
+.blue-bg
+  position: absolute
+  background-color: $color-blue
+  width: 100%
+  height: 63.5rem
+  z-index: -100
+  top: 450rem
+
+.dotted-square
+  display: flex
+  flex-direction: row
+  position: absolute
+.dotted-line
+  line-height: 1.3
+  position: relative
+  height: 16.74rem
+  width: .493rem
+  margin-right: .987rem
+.dotted-line::before
+  content: "• • • • • • • • • • • • • • •"
+  position: absolute
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  width: .493rem
+  height: .492rem
+  text-align: center
+  line-height: 9.85px
+  color: $color-white
+
+.dotted-square-red
+  display: flex
+  flex-direction: row
+  position: absolute
+.dotted-line-red
+  line-height: 1.3
+  position: relative
+  height: 16.74rem
+  width: .493rem
+  margin-right: .987rem
+.dotted-line-red::before
+  content: "• • • • • • • • • • • • • • •"
+  position: absolute
+  top: 0
+  left: 50%
+  transform: translateX(-50%)
+  width: .493rem
+  height: .492rem
+  text-align: center
+  line-height: 9.85px
+  color: $color-red

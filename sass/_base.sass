@@ -1,0 +1,44 @@
+$color-red: #F83718
+$color-white: #FFFFFF
+$color-black: #000000
+$color-blue-dark: #1B1925
+$color-gray: #959595
+$color-gray-light: #F0F0F0
+$color-gray-dark: #666666
+$color-blue: #01AFEB
+
+@mixin respond($breakpoint)
+
+    @if $breakpoint == tab-port
+        @media only screen and (max-width: 1200px)
+            @content
+
+    @if $breakpoint == phone
+        @media only screen and (max-width: 900px)
+            @content
+
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 62.5%
+    @include respond(tab-port)
+        font-size: 50%
+    @include respond(phone)
+        font-size: 30%
+
+body
+    font-family: 'Ubuntu', sans-serif
+    font-size: 1.6rem
+    font-weight: 300
+    line-height: 120%
+    background-color: $color-white
+    color: $color-black
+    margin: 0
+    padding: 0
+.container
+    position: relative
+    max-width: 116.4rem
+    margin: 0 auto
